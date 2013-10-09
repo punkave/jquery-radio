@@ -19,6 +19,10 @@ This example assumes you have several radio buttons that all have the `.my-radio
 
 You need jQuery, of course. `jquery-radio` is actively supported with jQuery 1.9 and 2.0 but should work fine with older versions.
 
+### Changelog
+
+0.1.3: cross browser support for IE and Firefox, which don't like the use of jQuery's `attr` to manipulate checkboxes very much. What does work is a combination of `setAttribute` and the `checked` property on the DOM element itself.
+
 ## About P'unk Avenue and Apostrophe
 
 `jquery-radio` was created at [P'unk Avenue](http://punkave.com) for use in Apostrophe, an open-source content management system built on node.js. If you like `jquery-radio` you should definitely [check out apostrophenow.org](http://apostrophenow.org). Also be sure to visit us on [github](http://github.com/punkave).
